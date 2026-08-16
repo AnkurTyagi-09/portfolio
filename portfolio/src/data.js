@@ -93,7 +93,7 @@ export const EDUCATION = [
   {
     degree: "Bachelor of Computer Applications (BCA)",
     school: "HR Institute of Science & Technology",
-    year: "2023 – Present",
+    year: "2023 – 2026",
   },
   {
     degree: "Senior Secondary (XII) — Science",
