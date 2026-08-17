@@ -1,0 +1,53 @@
+:root {
+  /* ---- Purple Desert core palette ---- */
+  --desert-black: #07050B;
+  --desert-deep: #0D0912;
+  --desert-panel: #14101B;
+
+  --purple-night: #21152F;
+  --purple-main: #7657FF;
+  --purple-soft: #9D82FF;
+  --purple-haze: #BFAEFF;
+
+  --sand-purple: #3A2948;
+  --sand-highlight: #60466F;
+
+  --moon: #F3EEFF;
+  --text-main: #F5F1FA;
+  --text-secondary: #B6ADBF;
+  --text-muted: #776E80;
+
+  --border: rgba(255, 255, 255, 0.08);
+  --glass: rgba(20, 16, 27, 0.62);
+
+  --ai-green: #8FE3C5;
+  --python-gold: #E8C56D;
+
+  /* ---- Aliases: every existing component already reads these,
+     so re-pointing them here re-themes the whole app instantly,
+     no component-by-component rewrite required for the base layer ---- */
+  --bg: var(--desert-black);
+  --bg2: var(--desert-deep);
+  --bg3: var(--desert-panel);
+  --bright: var(--text-main);
+  --text: var(--text-main);
+  --sub: var(--text-secondary);
+  --muted: var(--text-muted);
+  --dim: var(--sand-highlight);
+
+  /* ---- New semantic tokens for desert-specific components ---- */
+  --accent: var(--purple-main);
+  --accent-soft: var(--purple-soft);
+  --accent-haze: var(--purple-haze);
+  --success: var(--ai-green);
+  --data: var(--python-gold);
+
+  /* ---- Type scale ---- */
+  --font-display: "General Sans", "Manrope", -apple-system, sans-serif;
+  --font-body: "Manrope", -apple-system, sans-serif;
+  --font-mono: "Geist Mono", "DM Mono", "JetBrains Mono", monospace;
+
+  /* ---- Motion ---- */
+  --ease-cinematic: cubic-bezier(0.16, 1, 0.3, 1);
+  --dur-enter: 700ms;
+}
